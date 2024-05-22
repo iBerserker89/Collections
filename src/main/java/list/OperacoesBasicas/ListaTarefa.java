@@ -1,6 +1,5 @@
 package main.java.list.OperacoesBasicas;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +12,7 @@ public class ListaTarefa {
     }
 
     public void  adicionarTarefa(String descricao) {
-        tarefaList.add(new Tarefa((descricao)));
+        tarefaList.add(new Tarefa(descricao));
     }
 
     public void removerTarefa(String descricao) {
