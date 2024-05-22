@@ -37,9 +37,9 @@ public class ListaTarefa {
     public static void main(String[] args) {
         ListaTarefa listaTarefa = new ListaTarefa();
 
-//        listaTarefa.adicionarTarefa("Tarefa 1");
-//        listaTarefa.adicionarTarefa("Tarefa 1");
-//        listaTarefa.adicionarTarefa("Tarefa 2");
+        listaTarefa.adicionarTarefa("Tarefa 1");
+        listaTarefa.adicionarTarefa("Tarefa 1");
+        listaTarefa.adicionarTarefa("Tarefa 2");
 
         listaTarefa.removerTarefa("Tarefa 2");
         System.out.println("o número total de elementos na lista é: " + listaTarefa.obterNumeroToralTarefas());
