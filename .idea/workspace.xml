@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/CatalogoLivros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/Pesquisa/CatalogoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/CatalogoLivros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CarrinhoDeCompras.executor": "Run",
+    "Application.CatalogoLivros.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -67,13 +67,26 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarrinhoDeCompras">
+  <component name="RunManager" selected="Application.CatalogoLivros">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhoDeCompras" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.ListaTarefa" />
       </list>
