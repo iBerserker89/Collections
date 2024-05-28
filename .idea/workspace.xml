@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,8 @@
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
+    "Application.OrdenacaoNumeros.executor": "Run",
+    "Application.OrdenacaoPessoa.executor": "Run",
     "Application.SomaNumeros.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -67,7 +71,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrdenacaoPessoa">
+  <component name="RunManager" selected="Application.OrdenacaoNumeros">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhoDeCompras" />
       <module name="Collections" />
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.ListaTarefa" />
+    <configuration name="OrdenacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoNumeros" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.list.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdenacaoNumeros" />
         <item itemvalue="Application.OrdenacaoPessoa" />
         <item itemvalue="Application.SomaNumeros" />
         <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
-        <item itemvalue="Application.ListaTarefa" />
       </list>
     </recent_temporary>
   </component>
