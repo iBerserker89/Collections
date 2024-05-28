@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ConjuntoPalavrasUnicas {
-    private Set<String> palavrasUnicas;
+    private final Set<String> palavrasUnicas;
 
     public ConjuntoPalavrasUnicas() {
         this.palavrasUnicas = new HashSet<>();
@@ -28,9 +28,8 @@ public class ConjuntoPalavrasUnicas {
     }
 
     public void verificarPalavra(String palavra) {
-        String palavraParaVerificar = palavra;
-        if (palavrasUnicas.contains(palavraParaVerificar)) {
-            System.out.println("A palavra " + palavraParaVerificar + " está no Set.");
+        if (palavrasUnicas.contains(palavra)) {
+            System.out.println("A palavra " + palavra + " está no Set.");
         } else {
             System.out.println("Esta palavra não existe");
         }
