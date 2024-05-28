@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacoesBasicas/Convidado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
+    "Application.ConjuntoConvidados.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.OrdenacaoNumeros.executor": "Run",
     "Application.OrdenacaoPessoa.executor": "Run",
@@ -71,13 +73,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrdenacaoNumeros">
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhoDeCompras" />
+  <component name="RunManager" selected="Application.ConjuntoConvidados">
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
+    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.OperacoesBasicas.ConjuntoConvidados" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="main.java.set.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoNumeros" />
         <item itemvalue="Application.OrdenacaoPessoa" />
         <item itemvalue="Application.SomaNumeros" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
       </list>
     </recent_temporary>
   </component>
@@ -204,5 +206,15 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Enviando CarrinhoDeCompras" />
     <option name="LAST_COMMIT_MESSAGE" value="Enviando CarrinhoDeCompras" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
