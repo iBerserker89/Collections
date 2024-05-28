@@ -4,10 +4,10 @@ import java.util.Comparator;
 import java.util.Objects;
 
 public class Aluno implements Comparable<Aluno> {
-    private String nome;
-    private long matricula;
-    private double media;
-    private double nota;
+    private final String nome;
+    private final long matricula;
+    private final double media;
+    private final double nota;
 
     public Aluno(String nome, long matricula, double media, double nota) {
         this.nome = nome;
@@ -27,10 +27,6 @@ public class Aluno implements Comparable<Aluno> {
 
     public long getMatricula() {
         return matricula;
-    }
-
-    public double getMedia() {
-        return media;
     }
 
     public double getNota() {

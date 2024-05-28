@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class GerenciadorAlunos {
-    private Set<Aluno> alunoSet;
+    private final Set<Aluno> alunoSet;
 
     public GerenciadorAlunos() {
         this.alunoSet = new HashSet<>();
@@ -28,8 +28,7 @@ public class GerenciadorAlunos {
     }
 
     public Set<Aluno> exibirAlunosPorNome() {
-        Set<Aluno> alunoPorNome = new TreeSet<>(alunoSet);
-        return alunoPorNome;
+        return new TreeSet<>(alunoSet);
     }
 
     public Set<Aluno> exibirAlunosPorNota() {
