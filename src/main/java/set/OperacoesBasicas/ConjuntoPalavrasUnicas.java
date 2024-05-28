@@ -51,8 +51,8 @@ public class ConjuntoPalavrasUnicas {
         palavras.adicionarPalavra("Amarelo");
         palavras.adicionarPalavra("Roxo");
 
-        palavras.verificarPalavra("Azul");
-        palavras.verificarPalavra("Vermelho");
+        palavras.verificarPalavra("Lilás");
+        palavras.verificarPalavra("Amarelo");
 
         palavras.removerPalavra("Verde");
 
