@@ -13,6 +13,6 @@ public class Numero {
 
     @Override
     public String toString() {
-        return "numero = " + numero;
+        return String.valueOf(numero);
     }
 }
