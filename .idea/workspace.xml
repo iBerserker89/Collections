@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/EstoqueProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/ContagemPalavras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/Dicionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
     &quot;accountId&quot;: &quot;257ce243-a23e-4bd5-a274-85ae065d1be4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -56,6 +59,7 @@
     "Application.CatalogoLivros.executor": "Run",
     "Application.ConjuntoConvidados.executor": "Run",
     "Application.ConjuntoPalavrasUnicas.executor": "Run",
+    "Application.ContagemPalavras.executor": "Run",
     "Application.Dicionario.executor": "Run",
     "Application.EstoqueProduto.executor": "Run",
     "Application.GerenciadorAlunos.executor": "Run",
@@ -80,13 +84,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EstoqueProduto">
-    <configuration name="CadastroProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProduto" />
+  <component name="RunManager" selected="Application.ContagemPalavras">
+    <configuration name="ContagemPalavras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.Pesquisa.ContagemPalavras" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContagemPalavras" />
         <item itemvalue="Application.EstoqueProduto" />
         <item itemvalue="Application.Dicionario" />
         <item itemvalue="Application.main.java.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.GerenciadorAlunos" />
-        <item itemvalue="Application.CadastroProduto" />
       </list>
     </recent_temporary>
   </component>
