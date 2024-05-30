@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/AgendaEventos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/LivrariaOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     "Application.GerenciadorAlunos.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.ListaTarefas.executor": "Run",
+    "Application.LivrariaOnline.executor": "Run",
     "Application.OrdenacaoNumeros.executor": "Run",
     "Application.OrdenacaoPessoa.executor": "Run",
     "Application.SomaNumeros.executor": "Run",
@@ -85,7 +86,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AgendaEventos">
+  <component name="RunManager" selected="Application.LivrariaOnline">
     <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.map.Ordenacao.AgendaEventos" />
       <module name="Collections" />
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.map.OperacoesBasicas.AgendaContatos" />
+    <configuration name="LivrariaOnline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.map.Ordenacao.LivrariaOnline" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.map.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LivrariaOnline" />
         <item itemvalue="Application.AgendaEventos" />
         <item itemvalue="Application.ContagemPalavras" />
         <item itemvalue="Application.EstoqueProduto" />
         <item itemvalue="Application.Dicionario" />
-        <item itemvalue="Application.main.java.map.OperacoesBasicas.AgendaContatos" />
       </list>
     </recent_temporary>
   </component>
