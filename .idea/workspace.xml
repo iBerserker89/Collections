@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/GenericsExampleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/GenericsExampleMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/GenericsExampleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generics/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
