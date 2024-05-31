@@ -39,13 +39,64 @@ public class LivrariaOnline {
         }
     }
 
+    public Livro exibirLivrosPorAutor(String autor) {
+        Livro livroPorAutor = null;
+        if (!livrosMap.isEmpty()) {
+            for (Map.Entry<String, Livro> entry : livrosMap.entrySet()) {
+                if (entry.getValue().getAutor().equalsIgnoreCase(autor)) {
+                    livroPorAutor = entry.getValue();
+                    System.out.println("Livros ordenados por autor: " + livroPorAutor);
+                }
+            }
+        }
+        return livroPorAutor;
+    }
+
+    public Livro obterLivroMaisCaro() {
+        Livro livroMaisCaro = null;
+        double maiorPreco = Double.MIN_VALUE;
+        if (!livrosMap.isEmpty()) {
+            for (Livro livro : livrosMap.values()) {
+                if (livro.getPreco() > maiorPreco) {
+                    maiorPreco = livro.getPreco();
+                    livroMaisCaro = livro;
+                }
+            }
+        }
+        return livroMaisCaro;
+    }
+
+    public Livro exibirLivroMaisBarato() {
+        Livro livroMaisBarato = null;
+        double menorPreco = Double.MAX_VALUE;
+        if (!livrosMap.isEmpty()) {
+            for (Livro livro : livrosMap.values()) {
+                if (livro.getPreco() < menorPreco) {
+                    menorPreco = livro.getPreco();
+                    livroMaisBarato = livro;
+                }
+            }
+        }
+        return livroMaisBarato;
+    }
+
     public static void main(String[] args) {
         LivrariaOnline livrariaOnline = new LivrariaOnline();
 
         livrariaOnline.adicionarLivro("6207522265", "Aprenda Práticas de Java: Manual de Java", "K R Martin", 374.46);
-        livrariaOnline.adicionarLivro("6207522266", "Aprenda Práticas de Java: Manual de Java", "K R Martin", 275.46);
-        livrariaOnline.adicionarLivro("6207522267", "Aprenda Práticas de Java: Manual de Java", "K R Martin", 150.46);
+        livrariaOnline.adicionarLivro("6207522272", "Any Livro", "Any autor", 400.75);
+        livrariaOnline.adicionarLivro("8543004799", "Java®: Como Programar", "Paul Deitel", 365.25);
+        livrariaOnline.adicionarLivro("8582603363", "Java para Iniciantes: Crie, Compile e Execute Programas Java Rapidamente", "Herbert Schildt", 144.96);
+        livrariaOnline.adicionarLivro("1265058431", "Java: The Complete Reference, Thirteenth Edition", "Herbert Schildt", 265.76);
+
+        livrariaOnline.removerLivro("Any Livro");
 
         livrariaOnline.exibirLivrosOrdenadosPorPreco();
+
+        livrariaOnline.exibirLivrosPorAutor("Herbert Schildt");
+
+        System.out.println("Livro mais caro - " + livrariaOnline.obterLivroMaisCaro());
+
+        System.out.println("Livro mais barato - " + livrariaOnline.exibirLivroMaisBarato());
     }
 }

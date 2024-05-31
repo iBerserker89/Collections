@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32972770-33dd-477d-97ec-207f125928f1" name="Changes" comment="Enviando CarrinhoDeCompras">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/LivrariaOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/Ordenacao/LivrariaOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/LivrariaOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Livro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,42 +50,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AgendaContatos.executor": "Run",
-    "Application.AgendaEventos.executor": "Run",
-    "Application.CadastroProduto.executor": "Run",
-    "Application.CarrinhoDeCompras.executor": "Run",
-    "Application.CatalogoLivros.executor": "Run",
-    "Application.ConjuntoConvidados.executor": "Run",
-    "Application.ConjuntoPalavrasUnicas.executor": "Run",
-    "Application.ContagemPalavras.executor": "Run",
-    "Application.Dicionario.executor": "Run",
-    "Application.EstoqueProduto.executor": "Run",
-    "Application.GerenciadorAlunos.executor": "Run",
-    "Application.ListaTarefa.executor": "Run",
-    "Application.ListaTarefas.executor": "Run",
-    "Application.LivrariaOnline.executor": "Run",
-    "Application.OrdenacaoNumeros.executor": "Run",
-    "Application.OrdenacaoPessoa.executor": "Run",
-    "Application.SomaNumeros.executor": "Run",
-    "Application.main.java.map.OperacoesBasicas.AgendaContatos.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ibers/OneDrive - Educacional/Java/POO/Collections/Collections/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AgendaContatos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AgendaEventos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CadastroProduto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarrinhoDeCompras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CatalogoLivros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConjuntoConvidados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConjuntoPalavrasUnicas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContagemPalavras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dicionario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstoqueProduto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GerenciadorAlunos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListaTarefa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListaTarefas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LivrariaOnline.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrdenacaoNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrdenacaoPessoa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SomaNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.java.map.OperacoesBasicas.AgendaContatos.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ibers/OneDrive - Educacional/Java/POO/Collections/Collections/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LivrariaOnline">
     <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.map.Ordenacao.AgendaEventos" />
